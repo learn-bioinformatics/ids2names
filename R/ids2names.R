@@ -23,7 +23,7 @@ ids2names <- function(ref_ids,ref_names,input_ids) {
 
         # If not found, just return the query Ensembl ID
         if (isTRUE(has_matching_ID)) {
-            matching_name <- ref_df[id, "name"]
+            matching_name <- df[id, "name"]
             return(matching_name)
         } else {
             return(id)
