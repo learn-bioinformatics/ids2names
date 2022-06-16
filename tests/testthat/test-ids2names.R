@@ -1,4 +1,4 @@
-test_that("id2nameFUNcreator works", {
+test_that("ids2names works", {
 
   result <- ids2names(
                 ref_ids=c("id1","id2"),
